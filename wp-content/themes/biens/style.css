@@ -1,0 +1,35 @@
+/*
+Theme Name: biens
+Theme URI: 
+Description: 
+Version: 1.0
+Author: 
+Author URI: 
+*/
+
+/* Styles spécifiques à la page d'accueil */
+.home .entry-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.home .entry-content .entry-description {
+    color: #666;
+}
+
+/* Styles pour masquer des éléments sur la page d'accueil */
+.home .navbar {
+    display: none; /* Pour masquer la barre de navigation */
+}
+
+.home .section-content,
+.home .blog-post {
+    display: none; /* Pour masquer les autres éléments */
+}
+
+/* styles.css dans le répertoire du thème */
+.site-logo img {
+    max-width: 200px;
+    max-height: 100px;
+}
